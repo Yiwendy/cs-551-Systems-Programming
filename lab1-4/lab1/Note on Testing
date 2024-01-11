@@ -1,0 +1,24 @@
+I have a test program that I will use for grading this assignment. To
+help you with debugging I'm providing a script so you can run it to
+help identify issues. I am not releasing the source to the test program,
+although since it is compiled with symbols you can get info on failures
+like segfaults with gdb.
+
+In an empty directory in your priv, put your my_malloc.c. Then run
+
+/home/cs551001/share/labs/lab1/compile-testprog
+
+If the compile succeeds it will have crated an executable program
+"testprog" in your directory.
+
+You can then run "./testprog" to see how your my_malloc library does
+against my tests.
+
+To see what a perfect running solution would produce you can run
+/home/cs551001/share/labs/lab1/sample-testprog. You will notice 2 points
+of failure that are tested by source inspection, and not by running the
+testprog.
+
+Of course you need to do this logged in on a lab machine.
+
+KM
